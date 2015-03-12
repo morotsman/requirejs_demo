@@ -1,9 +1,11 @@
 # requirejs_demo
 
-no_require contains an example project with no RequireJS.
+Some examples of how to use RequireJS.
 
-require contains an example project that uses RequireJS.
+The folder no_require contains an example project with no RequireJS.
 
-optimization cointains example of how to use the RequireJS optimizer.
+The folder require contains an example project that uses RequireJS.
 
-presentation contains a small intoduction to the demo.
+The folder optimization cointains an example of how to use the RequireJS optimizer.
+
+The presentation folder contains a small introduction of the demo.
