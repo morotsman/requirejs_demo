@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My App Without RequireJS</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+   
+    
+    <script src="scripts/external/jquery.js" type="text/javascript"></script> 
+    
+    
+    <script src="scripts/view.js" type="text/javascript"></script>
+    <script src="scripts/message_resource.js" type="text/javascript"></script> <!-- Oops, better not include message_resource after the dao-->
+    <script src="scripts/dao.js" type="text/javascript"></script><!-- Oops, better not include dao after the controller-->
+    <script src="scripts/controller.js" type="text/javascript"></script>
+    
+    
+    
+    
+    
+        <script type="text/javascript">
+            $(function() {
+                controller.contentUpdated();
+            });
+        </script>           
+    
+        
+ 
+    
+    </head>
+    <body>
+        <h1>My App Without RequireJS</h1>
+        <div id="hello_world"></div>
+        
+</body>
+    
+
+</html>
